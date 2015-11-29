@@ -1,17 +1,17 @@
 {
-    "name": "league/:package_name",
-    "description": ":package_description",
+    "name": "package-start",
+    "description": "Strate toolkit for creating PHP packages",
     "keywords": [
-        "league",
-        ":package_name"
+        "packages",
+        "start"
     ],
-    "homepage": "https://github.com/thephpleague/:package_name",
+    "homepage": "https://github.com/devbox12/package-start",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": ":shawn sandy",
+            "email": ":shawnsandy04@gmail.com",
+            "homepage": ":shawnsandy.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "League\\Skeleton\\": "src"
+            "Package\\Start\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "League\\Skeleton\\Test\\": "tests"
+            "Package\\Start\\Test\\": "tests"
         }
     },
     "scripts": {
